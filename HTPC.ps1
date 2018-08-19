@@ -77,15 +77,6 @@ Configuration HTPC {
             Protocol = "TCP"
         }
         #>
-
-        Firewall FirewallRuleWithSquareBrackets
-        {
-            Name = "Square [Brackets]"
-            Ensure = "Present"
-            Group = "Debug"
-            LocalPort = 65000
-            Protocol = "TCP"
-        }
     }
 }
 HTPC
